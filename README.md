@@ -81,15 +81,8 @@ that `a` is `4`.
 ## Conclusion
 
 With the _essential three_ expressions under your control, we're going to start
-rapidly building up the richness of things you can do using expressions. In
-fact, in the rest of this section, **everything** will be an expression of some
-sort. It turns out we can write programs of high levels of sophistication
-without using anything more than expressions.
+rapidly building up the richness of things you can do using expressions. Whole
+programming languages are built around executing through evaluating expressions!
+Languages that work this way are called "functional languages" and they are some
+of the first programming languages ever created.
 
-> **FUTURE DIRECTIONS**: Whole programming languages are built around executing
-> through evaluating expressions! Languages that work this way are called
-> "functional languages" and they are some of the first programming languages
-> ever created.
-
-Thus far all our data have been very simple numbers. Let's learn While they're
-handy when we're learning, there's a lot more to say about the world!
