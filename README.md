@@ -7,24 +7,19 @@
 ## Introduction
 
 The final of our _essential three_ expressions is the variable lookup
-expression. Like the _constant expression_, it rounds out the "essential three"
-by being boring, yet profound.
+expression. Like the _constant expression_, it is boring yet profound. Once
+we've assigned a value to a _variable name_ using the _assignment expression_,
+we can use the _variable lookup expression_ to retrieve that value. Using our
+metaphors from the previous lesson, it looks up the variable's definition in the
+dictionary, or "shakes out" the value that was put in the labeled box.
 
-It retrieves the value that we set with the _assignment expression_ from the
-name we assigned to it.
+<!-- ![Dictionary lookup](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87B_VariableNamingMetaphors.png) -->
 
-It looks up the variable's definition in the dictionary, to use the metaphor from the previous lesson.
-
-![Dictionary lookup](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87B_VariableNamingMetaphors.png)
-
-Or, it shakes out the evaluated result of the expression that was put in the
-labeled box, to use the other metaphor from the previous lesson.
-
-![Box shake out](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87D_VariableNamingMetaphors.png)
+<!-- ![Box shake out](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87D_VariableNamingMetaphors.png) -->
 
 ## Define the Variable Lookup Expression
 
-To look up the value in a variable we simply type the variable name's name in.
+To look up the value in a variable we simply type the variable's name in.
 
 ```js
 // Assignment expression that returns 32
@@ -48,7 +43,7 @@ variable `ma-ma`. When the baby first sees that face again and says "`ma-ma`!"
 the parent has successfully taught the child "variable lookup." Although there
 are no pages in baby journals for "Baby's First Variable Lookup."
 
-![Successful Lookup](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_55_Mama-Baby_4.png)
+![Successful Lookup](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/Image_55_Mama-Baby_4.png)
 
 If you think about it, most of childhood education until early elementary
 school is giving them thousands of assignment expressions so they can
@@ -74,15 +69,14 @@ that `a` is `4`.
 
 |Expression|Real-Life Conversation|JavaScript Conversation|
 |----------|----------------------|-----------------|
-|Value Expression|Parent points "Doggie"|`4` evaluates to `4`|
-|Assignment Expression|"Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/small_puppy.JPG)|`a = 4` evaluates to `4`|
-|Variable Lookup|Child sees the dog and says "Doggie!"|`a` evaluates to `4`|
+|Constant Expression|Parent points to the doggie|`4` (evaluates to `4`)|
+|Assignment Expression|Parent teaches child that "Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/small_puppy.JPG)|`a = 4` (evaluates to `4`)|
+|Variable Lookup|Child sees the dog and says "Doggie!"|`a` (evaluates to `4`)|
 
 ## Conclusion
 
-With the _essential three_ expressions under your control, we're going to start
-rapidly building up the richness of things you can do using expressions. Whole
-programming languages are built around executing through evaluating expressions!
-Languages that work this way are called "functional languages" and they are some
-of the first programming languages ever created.
-
+Now that the _essential three_ expressions are under your control, we're going
+to start rapidly building up the richness of things you can do using
+expressions. Whole programming languages are built around executing through
+evaluating expressions! Languages that work this way are called "functional
+languages" and they are some of the first programming languages ever created.
