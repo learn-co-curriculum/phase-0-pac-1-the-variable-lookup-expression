@@ -70,7 +70,7 @@ that `a` is `4`.
 |Expression|Real-Life Conversation|JavaScript Conversation|
 |----------|----------------------|-----------------|
 |Constant Expression|Parent points to the doggie|`4` (evaluates to `4`)|
-|Assignment Expression|Parent teaches child that "Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/small_puppy.JPG)|`a = 4` (evaluates to `4`)|
+|Assignment Expression|Parent teaches child that "Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG)|`a = 4` (evaluates to `4`)|
 |Variable Lookup|Child sees the dog and says "Doggie!"|`a` (evaluates to `4`)|
 
 ## Conclusion
