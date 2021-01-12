@@ -13,10 +13,6 @@ we can use the _variable lookup expression_ to retrieve that value. Using our
 metaphors from the previous lesson, it looks up the variable's definition in the
 dictionary, or "shakes out" the value that was put in the labeled box.
 
-<!-- ![Dictionary lookup](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87B_VariableNamingMetaphors.png) -->
-
-<!-- ![Box shake out](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87D_VariableNamingMetaphors.png) -->
-
 ## Define the Variable Lookup Expression
 
 To look up the value in a variable we simply type the variable's name in.
@@ -51,8 +47,6 @@ participate in the world: "Red," "one," "eleven," "far."
 
 Consider this scenario. Look for the _essential three_ expressions in here.
 
-<!-- Don't trim trailing whitespace, used to force newline -->
-
 Parent: See the doggie? That’s a doggie.  
 Child: Doggie?  
 Parent: That’s right, that’s a doggie. Doggies say "Woof-woof!"  
@@ -67,11 +61,29 @@ Parent: That’s right. Doggie!
 Let’s compare teaching a baby a four-legged animal's name and teaching JavaScript
 that `a` is `4`.
 
-|Expression|Real-Life Conversation|JavaScript Conversation|
-|----------|----------------------|-----------------|
-|Constant Expression|Parent points to the doggie|`4` (evaluates to `4`)|
-|Assignment Expression|Parent teaches child that "Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG)|`a = 4` (evaluates to `4`)|
-|Variable Lookup|Child sees the dog and says "Doggie!"|`a` (evaluates to `4`)|
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Expression</th>
+    <th>Real-Life Conversation</th>
+    <th>JavaScript Conversation</th>
+  </tr>
+  
+  <tr>
+    <td>Constant Expression</td>
+    <td>Parent points to the doggie</td>
+    <td><code>4</code> (evaluates to <code>4</code>)</td>
+  </tr>
+  <tr>
+    <td>Assignment Expression</td>
+    <td>Parent teaches child that "Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG)</td>
+    <td><code>a = 4</code> (evaluates to <code>4</code>)</td>
+  </tr>
+  <tr>
+    <td>Variable Lookup</td>
+    <td>Child sees the dog and says "Doggie!"</td>
+    <td><code>a</code> (evaluates to <code>4</code>)</td>
+  </tr>
+</table>
 
 ## Conclusion
 
