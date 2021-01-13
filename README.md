@@ -75,7 +75,7 @@ that `a` is `4`.
   </tr>
   <tr>
     <td>Assignment Expression</td>
-    <td>Parent teaches child that "Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG)</td>
+    <td>Parent teaches child that "Doggie" = <img alt="Puppy picture" src="https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG"></td>
     <td><code>a = 4</code> (evaluates to <code>4</code>)</td>
   </tr>
   <tr>
