@@ -61,29 +61,11 @@ Parent: That’s right. Doggie!
 Let’s compare teaching a baby a four-legged animal's name and teaching JavaScript
 that `a` is `4`.
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <tr>
-    <th>Expression</th>
-    <th>Real-Life Conversation</th>
-    <th>JavaScript Conversation</th>
-  </tr>
-  
-  <tr>
-    <td>Constant Expression</td>
-    <td>Parent points to the doggie</td>
-    <td><code>4</code> (evaluates to <code>4</code>)</td>
-  </tr>
-  <tr>
-    <td>Assignment Expression</td>
-    <td>Parent teaches child that "Doggie" = <img alt="Puppy picture" src="https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG"></td>
-    <td><code>a = 4</code> (evaluates to <code>4</code>)</td>
-  </tr>
-  <tr>
-    <td>Variable Lookup</td>
-    <td>Child sees the dog and says "Doggie!"</td>
-    <td><code>a</code> (evaluates to <code>4</code>)</td>
-  </tr>
-</table>
+| Expression | Real-Life Conversation | JavaScript Conversation |
+| --- | --- | --- |
+| Constant Expression | Parent points to the doggie | 4 (evaluates to 4) |
+| Assignment Expression | Parent teaches child that "Doggie" = <img alt="Puppy picture" src="https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG"></td> | a = 4 (evaluates to 4) |
+| Variable Lookup | Child sees the dog and says "Doggie!" | a (evaluates to 4) |
 
 ## Conclusion
 
