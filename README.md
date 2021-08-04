@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-* Define the Variable Lookup Expression
+- Define the Variable Lookup Expression
 
 ## Introduction
 
@@ -19,17 +19,18 @@ To look up the value in a variable we simply type the variable's name in.
 
 ```js
 // Assignment expression that returns 32
-age = 32
+age = 32;
 
 // Type in the assigned name
-age
+age;
 ```
 
 In return, we get `32`.
 
 <iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/TraumaticQuixoticDriver?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-That’s it. The values we associate with the assignment expression can be retrieved by simply typing the variable's name.
+That's it. The values we associate with the assignment expression can be
+retrieved by simply typing the variable's name.
 
 ## Variable Lookup as Conversation
 
@@ -41,31 +42,35 @@ are no pages in baby journals for "Baby's First Variable Lookup."
 
 ![Successful Lookup](https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/Image_55_Mama-Baby_4.png)
 
-If you think about it, most of childhood education until early elementary
-school is giving them thousands of assignment expressions so they can
-participate in the world: "Red," "one," "eleven," "far."
+If you think about it, most of childhood education until early elementary school
+is giving them thousands of assignment expressions so they can participate in
+the world: "Red," "one," "eleven," "far."
 
 Consider this scenario. Look for the _essential three_ expressions in here.
 
-Parent: See the doggie? That’s a doggie.  
-Child: Doggie?  
-Parent: That’s right, that’s a doggie. Doggies say "Woof-woof!"  
-Child: Doggie?  
-Parent: Right. Doggie.  
+```txt
+Parent: See the doggie? That's a doggie.
+Child: Doggie?
+Parent: That's right, that's a doggie. Doggies say "Woof-woof!"
+Child: Doggie?
+Parent: Right. Doggie.
+```
 
-_Some time later_
+_Some time later_...
 
-Child: Doggie!  
-Parent: That’s right. Doggie!  
+```txt
+Child: Doggie!
+Parent: That's right. Doggie!
+```
 
-Let’s compare teaching a baby a four-legged animal's name and teaching JavaScript
+Let's compare teaching a baby a four-legged animal's name and teaching JavaScript
 that `a` is `4`.
 
-| Expression | Real-Life Conversation | JavaScript Conversation |
-| --- | --- | --- |
-| Constant Expression | Parent points to the doggie | `4` (evaluates to `4`) |
+| Expression            | Real-Life Conversation                                                                                                                                                       | JavaScript Conversation    |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| Constant Expression   | Parent points to the doggie                                                                                                                                                  | `4` (evaluates to `4`)     |
 | Assignment Expression | Parent teaches child that "Doggie" = <img alt="Puppy picture" src="https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/small_puppy.JPG"></td> | `a = 4` (evaluates to `4`) |
-| Variable Lookup | Child sees the dog and says "Doggie!" | `a` (evaluates to `4`) |
+| Variable Lookup       | Child sees the dog and says "Doggie!"                                                                                                                                        | `a` (evaluates to `4`)     |
 
 ## Conclusion
 
