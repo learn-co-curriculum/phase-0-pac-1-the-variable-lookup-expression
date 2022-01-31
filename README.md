@@ -27,7 +27,7 @@ age;
 
 In return, we get `32`.
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/TraumaticQuixoticDriver?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 That's it. The values we associate with the assignment expression can be
 retrieved by simply typing the variable's name.
