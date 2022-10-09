@@ -41,7 +41,7 @@ variable `ma-ma`. When the baby first sees that face again and says "`ma-ma`!"
 the parent has successfully taught the child "variable lookup." Although there
 are no pages in baby journals for "Baby's First Variable Lookup."
 
-![Successful Lookup](https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/Image_55_Mama-Baby_4.png)
+![Successful Lookup. The mom is happy, because when the baby first sees that face again and says "ma-ma!" the parent has successfully taught the child "variable lookup".](https://curriculum-content.s3.amazonaws.com/phase-0/the-variable-lookup-expression/Image_55_Mama-Baby_4.png)
 
 If you think about it, most of childhood education until early elementary school
 is giving them thousands of assignment expressions so they can participate in
